@@ -1,0 +1,79 @@
+*{
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+.logoLP{
+    max-width: 70%;
+    padding-left: 40px;
+    width: 50%;
+}
+header{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 120px;
+    justify-content: space-between;
+    align-items: center;
+}
+ul.menu_déroulant{
+    color:  rgba(0,0,0,.6);
+    text-align: center;
+    margin-right: auto;
+    list-style: none;
+    background-color: white;
+    display: flex
+}
+.menu_déroulant li{
+    text-align: right;
+    padding: 10px;
+    justify-content: space-between;
+    margin-right: auto;
+    font-family: 'Roboto Slab',Georgia,"Times New Roman",serif;
+}
+.block2{
+    display:flex;
+    text-align: left;
+    font-family: 'Roboto Regular' ,Arial, Helvetica,Arial,Lucida, sans-serif;
+    font-size: 30px;
+    background-color: #336699;
+}
+.inscrip{
+  display:flex;
+  background-color: #336699;
+  color: white;
+  width: 40%;
+  font-size: 25px;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+}
+img.visage{
+  display: flex;
+  width: 100%;
+}
+.onfaitlebouton{
+  margin-top: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+strong.PourNico{
+  text-align: center;
+}
+button{
+  background-color: #ff2063;
+  border-radius: 100px;
+  border: none;
+  color: white;
+  padding: 10px 70px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px;
+  width: 450px;
+}
+button:hover{
+  color: white;
+  letter-spacing: 1px;
+}
